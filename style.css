@@ -1,0 +1,328 @@
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+.demo_wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.name {
+    z-index: 2;
+    color:rgb(255, 237, 78);
+    font-size: 2rem;
+    position: relative;
+    left: 14rem;
+    top: 2rem;
+    font-weight: 600;
+    -webkit-text-stroke: 0.06em rgba(0, 0, 0, 0.7);
+    text-shadow: 0rem 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.75);
+}
+
+.adress {
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    left: 13rem;
+    margin: 1rem;
+    -webkit-text-stroke: 0.04em rgb(50, 48, 48, 0.6);
+
+}
+
+.done:hover, .price:hover, .attitude:hover {
+    height: 2.5rem;
+    box-shadow: 0px 10px 20px 2px rgba(255, 255, 255, 0.75);
+}
+
+.done, .price, .attitude {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0.06em rgb(50, 48, 48, 0.6);
+}
+
+.demo_wrap h1 {
+    padding: 25%;
+}
+.demo_wrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.logotype img {
+    z-index: 2;
+    position: relative;
+    top: -57.5rem;
+    left: 4rem;
+    height: 10.2rem;
+    width: 10.2rem;
+}
+
+.media {
+    position: relative;
+    top: -66rem;
+    z-index: 2;
+    left: 68rem;
+}
+
+.first img, .second img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.first, .second {
+    margin: 1rem;
+    font-size: 2rem;
+    color: red;
+    font-weight: 600;
+}
+
+.disk {
+    color: rgb(223, 0, 0);
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+    left: 4.5rem;
+    top: -65rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line {
+    background-color: rgba(0, 0, 0);
+    height: 13rem;
+    width: 100%;
+    position: relative;
+    top: -92em;
+    z-index: -1;
+}
+
+.advantages {
+    position: relative;
+    top: -35rem;
+    margin-bottom: 10rem; 
+}
+
+.better {
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+    -webkit-text-stroke: 0.15rem black;
+    font-weight: 600;
+    margin-bottom: 7rem;
+}
+
+.painting img, .quality img, .masters img, .fast img, .individual img {
+    width: 150px;
+    height:165px ;
+}
+
+.painting, .quality, .masters, .fast, .individual {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about_video1, .about_video2 {
+    position: relative;
+    top: -32rem;
+    margin-left: 1rem;
+    margin-bottom: -19rem;
+} 
+
+.about_video2 {
+    float: right;
+    margin-right: 3rem;
+} 
+
+.about_video2 {
+    float: left;
+    margin-bottom: -46rem; ;
+}
+
+
+.video1_content, .video2_content {
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+    height: 25rem;
+    width: 45rem;  
+}
+
+.video2_content {
+    float: right;
+}
+
+.back_work {
+    float: right;
+    margin-right: 3rem;
+}
+
+.about1, .about2, .about3 {
+    text-align: right;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    position: relative;
+    top: -30rem;
+}
+
+.about2 {
+    float: left;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.about3 {
+    position: relative;
+    top: -32rem;
+}
+
+
+.about, .about_work {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 600;
+    color: red;
+    -webkit-text-stroke: black 0.1rem;
+    position: relative;
+    top: 15rem;
+}
+
+.amazing_work {
+    text-align: right;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    position: relative;
+    top: -35rem;
+}
+
+.amazing_work {
+    float: left;
+    margin-left: 1rem;
+}
+
+.introduction1, .introduction2, .about_before_after_2 {
+    font-size: 3rem;
+    color: red;
+    -webkit-text-stroke: 0.1rem black;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.main1 {
+    font-size: 1.5rem;
+}
+
+
+.gallery, .feedback_of_work, .in_process {
+    margin-top: -15rem ;
+    margin-bottom: 11rem;
+    margin-left: 3rem;
+}
+
+.gallery, .feedback_of_work {
+    position: relative;
+    top: -6rem;
+}
+
+
+.gallery img {
+    width: 22rem;
+    height: 27rem;
+    margin: 1rem;
+}
+
+.back_work img {
+    width: 30rem;
+    height: 25rem;
+    margin-left: 3rem;
+}
+
+.amazing_work {
+    position: relative;
+    top: -6rem;
+}
+
+.prices {
+    margin-bottom: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pr {
+    text-align: center;
+    font-size: 4.5rem;
+    -webkit-text-stroke: 0.2rem black;
+    font-weight: 700;
+    position: relative;
+    top: -13rem;
+    color: red; 
+    margin-bottom: -12rem;
+    margin-top: 38rem;
+}
+
+.prices img {
+    width: 65rem;
+    height: 110rem;
+}
+
+.completes {
+    text-align: center;
+    font-size: 4.5rem;
+    -webkit-text-stroke: 0.2rem black;
+    font-weight: 700;
+    color: red;
+}
+
+.completes_1_2 {
+    position: relative;
+    top: -10rem;
+}
+
+.on, .tw, .th, .fo {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.mazda img, .mitsubisi img, .toyota img, .tayper img{
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem;
+}
+
+.donot_forget {
+    margin: 1rem;
+    text-align: right;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.more_foto, .telephone {
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: rgba(0, 0, 0, 0.8) 0.1rem 0.1rem 0.2rem;
+}
+
+.telega, .telephonchik {
+    color: red;
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-shadow: black 0.15rem 0.15rem 0.15rem;
+}
+
+.forma {
+    margin: 20rem;
+    font-size: 1.3rem;
+    position: relative;
+    margin-top: 5rem;
+}
